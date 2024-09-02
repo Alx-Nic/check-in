@@ -7,7 +7,7 @@ datasource db {
     provider = "prisma-client-js"
   }
   
-  model User {
+  model CheckIn {
     id    Int     @id @default(autoincrement())
     date  DateTime
     operation String
